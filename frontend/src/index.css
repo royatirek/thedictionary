@@ -1,0 +1,25 @@
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-left {
+  float: left;
+  margin-left: 10px;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #28a745;
+}
+
+::selection {
+  color: white;
+  background: #28a745;
+}
